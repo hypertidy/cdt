@@ -58,6 +58,11 @@ ct$eval(src1)
 ct$eval(src2)
 ct$eval("cdt2d(points, edges)")
 
+
+x <- c(.1, .1, .9, .9, .2, .2, .8, .8)
+y <- c(.1, .9, .9, .1, .2, .8, .8, .2)
+geometry::delaunayn(cbind(x, y))
+get_tri(x, y)
 ```
 
 ## Setup
