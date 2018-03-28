@@ -1,0 +1,3 @@
+npm install cdt2d
+echo "global.cdt2d = require('cdt2d');" > in.js
+browserify in.js -o bundle.js
